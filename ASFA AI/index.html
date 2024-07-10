@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <link rel="shortcut icon" href="download.jpeg" type="image/x-icon">
+    <title>A S F A Command Basic Assistant</title>
+</head>
+
+<body>
+
+    <audio src="audio1.mp3" id="turnOn"></audio>
+
+    <div class="machine">
+ 
+        <div class="clock cont">
+            <img src="clock.gif" class="icon clockImg">
+            <!-- <img src="animatedClock.gif" class="icon clockImg"> -->
+            <p id="time" class="times" style="margin-left: 2%;"></p>
+        </div>
+
+        <div class="internet cont">
+            <img src="wifi.gif" class="icon wifi">
+            <p id="Wifi"></p>
+        </div>
+
+        <div class="battery cont">
+            <img src="fullBattery.gif" class="icon batteryIcon">
+            <!-- <img src="mediumBettry.gif" class="icon batteryIcon"> -->
+            <!-- <img src="lowBettry.gif" class="icon batteryIcon"> -->
+            <p id="Battery"></p>
+        </div>
+
+        <div class="temp">
+            <p id="location"></p>
+            <p id="country"></p>
+            <p id="weatherT"></p>
+            <p id="weatherD"></p>
+            <img src="" id="weatherIcon" />
+            <p id="oTemp"></p>
+            <p id="feelLikeTemp"></p>
+            <p id="minT"></p>
+            <p id="maxT"></p>
+             <!-- <p id="feels_like"></p>
+             <p id="temp_min"></p>
+             <p id="temp_max"></p> -->
+        </div>
+
+        <div class="calender">
+            <p id="month"></p>
+            <p id="day"></p>
+            <p id="date"></p>
+            <p id="year"></p>
+        </div>
+        
+        <img src="ai.gif" id="asfa" class="smallAsfa hide_on_small">
+        <!-- <img src="techAi.gif" id="asfa"> -->
+        <img src="brain.gif" id="brain" class="stop">
+
+
+    </div>
+
+    <div id="startAsfaBtn" title="Start_Asfa">
+        <img src="btnfotage.gif">
+    </div>
+
+    <div class="asfa_setup in_middle">
+
+        <label for="">Your Name</label>
+        <input type="text" class="anime"> <br>
+
+        <label for="">Your Bio</label>
+        <input type="text" class="anime"> <br>
+
+        <label for="">Your Location</label>
+        <input type="text" class="anime"> <br>
+        
+        <label for="">Your Instagram Profile</label>
+        <input type="text" class="anime"> <br>
+        
+        <label for="">Your Twiter Profile</label>
+        <input type="text" class="anime"> <br>
+
+        <label for="">Your Github Profile</label>
+        <input type="text" class="anime"> <br>
+        
+        <label for="">Write Your Gender</label>
+        <input type="text" class="anime" placeholder="Are You Male Or Female">
+        
+
+        <button id="sub_btn">Submit</button>
+
+    </div>
+
+
+    <div class="messages scroll"></div>
+
+    <div class="commands in_middle block"></div>
+
+
+    <!-- <h1>Hey We make ASFA Assistant</h1> -->
+    <button id="start" style="display: none;">VR Start</button>
+    <button id="stop" style="display: none;">VR Sttopd</button>
+    <button id="speak" style="display: none;">Speak Out</button>
+<!-- /////////////////////////////////////////////////////// -->
+    <div class="new_asfa_window">
+        <img src="./techAi.gif" height="230" id="asfa_start" style="display: none;"/>
+    </div>
+</body>
+</html>
